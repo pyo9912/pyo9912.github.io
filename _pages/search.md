@@ -1,5 +1,5 @@
 ---
 title: Search
 layout: search
-permalink: /saarch/
+permalink: /search/
 ---  
