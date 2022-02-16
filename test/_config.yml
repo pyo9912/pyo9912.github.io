@@ -273,6 +273,7 @@ defaults:
       read_time: true
       share: true
       related: true
+      sidebar_main: true
   # _pages
   - scope:
       path: "_pages"
@@ -280,6 +281,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar_main: true
   # _recipes
   - scope:
       path: ""
@@ -288,6 +290,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      sidebar_main: true
   # _pets
   - scope:
       path: ""
@@ -296,6 +299,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      sidebar_main: true
   # _portfolio
   - scope:
       path: ""
@@ -304,3 +308,4 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      sidebar_main: true
