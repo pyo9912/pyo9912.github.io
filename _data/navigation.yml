@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Home"
+    url: /index.html
   - title: "Category"
     url: /categories/
   - title: "Tag"
@@ -7,20 +9,24 @@ main:
   - title: "Search"
     url: /search/
 
-docs:
-  - title: "Contents"
-    children:
-      - title: "Algorithm"
-        urls: /algorithms/
-      - title: "Project"
-        urls: /projects/
+# docs:
+#   - title: "Coding"
+#     children:
+#       - title: "백준"
+#         urls: /baekjoon/
+#       - title: "알고리즘"
+#         urls: /algorithm/
 
-  - title: "Search"
-    children:
-      - title: "Category"
-        urls: /categories/
-      - title: "Tag"
-        urls: /tags/
+#   - title: "Project"
+#     children:
+#       - title: "졸업프로젝트"
+#         urls: /seniorproject/
+
+#   - title: "Git"
+#     children:
+#       - title: "gitblog"
+#         urls: /gitblog/
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
