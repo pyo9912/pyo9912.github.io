@@ -33,6 +33,13 @@
         <span class="nav__sub-title">GIT</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Git" %}
+                        <li><a href="/categories/git" class="">git ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>  
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "GitBlog" %}
                         <li><a href="/categories/gitblog" class="">git blog ({{category[1].size}})</a></li>
                     {% endif %}
