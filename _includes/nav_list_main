@@ -25,6 +25,13 @@
         <span class="nav__sub-title">PROJECT</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "CASS" %}
+                        <li><a href="/categories/cass" class="">학부연구생 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "SeniorProject" %}
                         <li><a href="/categories/seniorproject" class="">졸업프로젝트 ({{category[1].size}})</a></li>
                     {% endif %}
