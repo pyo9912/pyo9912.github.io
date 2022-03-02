@@ -2,7 +2,7 @@
 layout: "single"
 title: "회의실 배정"
 categories: Baekjoon
-tags: [c/c++, greedy, stl, vector, sort]
+tags: [c/c++, greedy, vector, sort]
 sidebar_main: true
 author_profile: true
 ---  
