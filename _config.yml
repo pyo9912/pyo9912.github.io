@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "Post IT"
 title_separator          : "|"
-subtitle                 : "Just do it"
+subtitle                 : #
 name                     : "pyo9912"
 description              : "하나씩 적어보는 코딩 메모장"
 url                      : "https://pyo9912.github.io"
